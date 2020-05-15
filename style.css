@@ -1,0 +1,87 @@
+/* Selector {
+    Property: Value;
+} */
+.ill{
+    font-style: italic bold; 
+    border: 5px solid yellowgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+header{
+    background-color: royalblue;
+}
+h2{
+    font-size: .2in;
+}
+p{
+    font-size: .2in;
+    font-style: bold;
+}
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav li{
+    float: left;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-style: unset; 
+    box-pack: initial;
+    font-style: bold;
+}
+body{
+    margin: 0%;
+    margin-top: 0%;
+    padding-top: 0px;
+    text-align: center;
+}
+nav li{
+    list-style: none;
+    text-emphasis-color: red;
+}
+header{
+    margin-top: 0%;
+}
+h4{
+    color: antiquewhite;
+    font-size: 20px;
+    font-style: initial;
+    border: 0px; height: 100px;
+    background-color: black;
+    text-align: left;
+}
+
+h5{
+    color: yellow;
+    border: 30px; height: 120px;
+    background-color: black;
+    text-align: left;
+}
+.bank{
+    background-image: url(maxresdefault.jpg);
+    background-size: cover;
+}
+.banky{
+    background-color: royalblue;
+}
+.debunk{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h6{
+    font-size: 20px;
+
+}
+.opera{
+    background-color: royalblue;
+}
+.boygod{
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+h3{
+    line-height: 20px;
+}
